@@ -41,3 +41,10 @@ test("costs reduce returns and stats are sane", () => {
   const st = stats(u.dates, a.equity, 260, last);
   assert.ok(st.maxDD <= 0 && st.vol > 0 && st.years > 2);
 });
+
+test("ranking agrees with the momentum strategy's picks", async () => {
+  const { momentumRanking } = await import("../lib/portfolio.ts");
+  const syms = Object.keys(series);
+  const top = momentumRanking(u, syms, 700).slice(0, 3).map((x) => x.symbol).sort();
+  assert.deepEqual(top, Object.keys(momentum(syms, 3)(u, 700)).sort());
+});

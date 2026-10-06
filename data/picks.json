@@ -1,0 +1,226 @@
+{
+ "generatedAt": "2026-10-06T04:21:15.646Z",
+ "signalDate": "2026-06-30",
+ "priceDate": "2026-07-30",
+ "universe": 98,
+ "holdings": [
+  {
+   "rank": 1,
+   "symbol": "MDT",
+   "name": "MDT",
+   "momentum": 1.067585862805914,
+   "signalPrice": 160.07484235447134,
+   "price": 143.8645519582195,
+   "status": "續抱"
+  },
+  {
+   "rank": 2,
+   "symbol": "UBER",
+   "name": "UBER",
+   "momentum": 1.0068309696166602,
+   "signalPrice": 176.39488549715875,
+   "price": 185.99858701446485,
+   "status": "續抱"
+  },
+  {
+   "rank": 3,
+   "symbol": "UNH",
+   "name": "UNH",
+   "momentum": 0.8082419399941052,
+   "signalPrice": 196.3863822785726,
+   "price": 211.17895444341653,
+   "status": "續抱"
+  },
+  {
+   "rank": 4,
+   "symbol": "BLK",
+   "name": "BLK",
+   "momentum": 0.7808148707994087,
+   "signalPrice": 346.9442039190055,
+   "price": 371.16236919782517,
+   "status": "續抱"
+  },
+  {
+   "rank": 5,
+   "symbol": "LIN",
+   "name": "LIN",
+   "momentum": 0.7136000624302761,
+   "signalPrice": 295.87512705944,
+   "price": 268.1637999051714,
+   "status": "續抱"
+  },
+  {
+   "rank": 6,
+   "symbol": "SCHW",
+   "name": "SCHW",
+   "momentum": 0.7115512300129558,
+   "signalPrice": 207.42968653509521,
+   "price": 202.19817849242085,
+   "status": "新買進"
+  },
+  {
+   "rank": 7,
+   "symbol": "BA",
+   "name": "BA",
+   "momentum": 0.7086472769733136,
+   "signalPrice": 168.86532821484496,
+   "price": 170.64883817174257,
+   "status": "新買進"
+  },
+  {
+   "rank": 8,
+   "symbol": "MS",
+   "name": "MS",
+   "momentum": 0.7010290665287002,
+   "signalPrice": 239.54379997002,
+   "price": 209.52092002954763,
+   "status": "續抱"
+  },
+  {
+   "rank": 9,
+   "symbol": "JPM",
+   "name": "JPM",
+   "momentum": 0.692170598896866,
+   "signalPrice": 222.6364872897489,
+   "price": 214.04420185605463,
+   "status": "續抱"
+  },
+  {
+   "rank": 10,
+   "symbol": "JNJ",
+   "name": "JNJ",
+   "momentum": 0.6906141507909569,
+   "signalPrice": 192.6495388168064,
+   "price": 189.09225830635373,
+   "status": "新買進"
+  }
+ ],
+ "sells": [
+  {
+   "symbol": "GILD",
+   "name": "GILD",
+   "rank": 23
+  },
+  {
+   "symbol": "AMT",
+   "name": "AMT",
+   "rank": 26
+  },
+  {
+   "symbol": "QCOM",
+   "name": "QCOM",
+   "rank": 18
+  }
+ ],
+ "watch": [
+  {
+   "rank": 1,
+   "symbol": "NKE",
+   "name": "NKE",
+   "momentum": 1.233708793936866,
+   "inList": false
+  },
+  {
+   "rank": 2,
+   "symbol": "JPM",
+   "name": "JPM",
+   "momentum": 1.163811434832477,
+   "inList": true
+  },
+  {
+   "rank": 3,
+   "symbol": "MDT",
+   "name": "MDT",
+   "momentum": 1.0086078888099816,
+   "inList": true
+  },
+  {
+   "rank": 4,
+   "symbol": "MS",
+   "name": "MS",
+   "momentum": 0.9273166521377345,
+   "inList": true
+  },
+  {
+   "rank": 5,
+   "symbol": "CSCO",
+   "name": "CSCO",
+   "momentum": 0.7651357044798135,
+   "inList": false
+  },
+  {
+   "rank": 6,
+   "symbol": "UNH",
+   "name": "UNH",
+   "momentum": 0.7420359104303753,
+   "inList": true
+  },
+  {
+   "rank": 7,
+   "symbol": "GM",
+   "name": "GM",
+   "momentum": 0.7275120235688892,
+   "inList": false
+  },
+  {
+   "rank": 8,
+   "symbol": "UBER",
+   "name": "UBER",
+   "momentum": 0.6860913091815672,
+   "inList": true
+  },
+  {
+   "rank": 9,
+   "symbol": "SCHW",
+   "name": "SCHW",
+   "momentum": 0.6670335802451246,
+   "inList": true
+  },
+  {
+   "rank": 10,
+   "symbol": "SO",
+   "name": "SO",
+   "momentum": 0.6538117080879535,
+   "inList": false
+  },
+  {
+   "rank": 11,
+   "symbol": "SBUX",
+   "name": "SBUX",
+   "momentum": 0.6264874445002855,
+   "inList": false
+  },
+  {
+   "rank": 12,
+   "symbol": "LMT",
+   "name": "LMT",
+   "momentum": 0.6131902097758204,
+   "inList": false
+  },
+  {
+   "rank": 13,
+   "symbol": "NOW",
+   "name": "NOW",
+   "momentum": 0.5648392162709011,
+   "inList": false
+  },
+  {
+   "rank": 14,
+   "symbol": "BA",
+   "name": "BA",
+   "momentum": 0.554606950912981,
+   "inList": true
+  },
+  {
+   "rank": 15,
+   "symbol": "HON",
+   "name": "HON",
+   "momentum": 0.5476685742598066,
+   "inList": false
+  }
+ ],
+ "market": {
+  "spy": 111.35093535898423,
+  "spySignal": 104.89355340827666
+ }
+}

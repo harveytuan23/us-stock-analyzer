@@ -20,8 +20,8 @@ body { margin: 0; background: var(--bg); color: var(--text);
   font: 15px/1.6 system-ui, -apple-system, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif; }
 .wrap { max-width: 1100px; margin: 0 auto; padding: 20px 16px 48px; }
 .top { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: 16px; }
-h1 { font-size: 20px; margin: 0 auto 0 0; }
-.search { display: flex; gap: 8px; }
+h1 { font-size: 20px; margin: 0; }
+.search { display: flex; gap: 8px; margin-left: auto; }
 .search input { padding: 8px 12px; border: 1px solid var(--grid); border-radius: 8px; background: var(--card); color: var(--text); width: 180px; font-size: 15px; }
 button { font: inherit; cursor: pointer; border: 1px solid var(--grid); background: var(--card); color: var(--text); border-radius: 8px; padding: 6px 12px; }
 .search button { background: var(--accent); color: #fff; border-color: var(--accent); }
@@ -69,3 +69,6 @@ details { margin-bottom: 8px; } summary { cursor: pointer; color: var(--accent);
   .sig { display: block; overflow-x: auto; }
   .search input { width: 140px; }
 }
+
+.navlink { color: var(--accent); text-decoration: none; font-weight: 600; margin-right: auto; }
+a { color: var(--accent); }

@@ -173,3 +173,22 @@ export function stats(dates: string[], equity: number[], from: number, to: numbe
     years,
   };
 }
+
+// Full 12-1 momentum ranking at day t (strongest first), for display.
+export function momentumRanking(u: Universe, symbols: string[], t: number, lookback = 252, skip = 21) {
+  return symbols
+    .map((s) => {
+      const c = u.closes[s];
+      const a = c?.[t - lookback];
+      const b = c?.[t - skip];
+      return a != null && b != null && c[t] != null ? { symbol: s, score: b / a - 1 } : null;
+    })
+    .filter((x): x is { symbol: string; score: number } => x != null)
+    .sort((x, y) => y.score - x.score);
+}
+
+// Index of the most recent completed month-end on or before t.
+export function lastMonthEnd(dates: string[], t: number) {
+  for (let i = t; i > 0; i--) if (isMonthEnd(dates, i) && i < dates.length - 1) return i;
+  return -1;
+}

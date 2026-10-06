@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import Dashboard, { type Result } from "@/components/Dashboard.tsx";
 
 async function load(symbol: string): Promise<Result> {
@@ -9,5 +10,5 @@ async function load(symbol: string): Promise<Result> {
 }
 
 export default function Page() {
-  return <Dashboard load={load} />;
+  return <Dashboard load={load} nav={<Link href="/picks" className="navlink">本月名單 →</Link>} />;
 }

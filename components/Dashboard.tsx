@@ -13,9 +13,10 @@ const VERDICT: Record<Verdict, string> = { bull: "偏多", bear: "偏空", neutr
 const money = (v: number) => `$${v.toFixed(2)}`;
 const pctStr = (v: number) => `${v >= 0 ? "+" : ""}${(v * 100).toFixed(2)}%`;
 
-export default function Dashboard({ load, banner, quick = QUICK }: {
+export default function Dashboard({ load, banner, nav, quick = QUICK }: {
   load: (symbol: string) => Promise<Result>;
   banner?: React.ReactNode;
+  nav?: React.ReactNode;
   quick?: string[];
 }) {
   const [input, setInput] = useState("");
@@ -39,7 +40,10 @@ export default function Dashboard({ load, banner, quick = QUICK }: {
     }
   }, [load]);
 
-  useEffect(() => { run(quick[0]); }, [run, quick]);
+  useEffect(() => {
+    const fromUrl = typeof window !== "undefined" ? new URLSearchParams(window.location.search).get("symbol") : null;
+    run(fromUrl ?? quick[0]);
+  }, [run, quick]);
 
   const a = data?.analysis;
   const f = data?.fundamentals;
@@ -48,6 +52,7 @@ export default function Dashboard({ load, banner, quick = QUICK }: {
     <main className="wrap">
       <header className="top">
         <h1>美股老手分析台</h1>
+        {nav}
         <form onSubmit={(e) => { e.preventDefault(); run(input); }} className="search">
           <input value={input} onChange={(e) => setInput(e.target.value)} placeholder="輸入代號，例如 NVDA" aria-label="股票代號" />
           <button disabled={loading}>{loading ? "分析中…" : "分析"}</button>

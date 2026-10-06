@@ -1,0 +1,5 @@
+// Today's S&P 100 members. Backtesting with current members adds survivorship bias.
+export const SP100 = `AAPL MSFT NVDA AMZN GOOGL META BRK-B TSLA AVGO LLY JPM V UNH XOM MA JNJ PG HD COST ABBV MRK WMT NFLX CVX KO BAC ORCL CRM AMD PEP TMO ADBE LIN MCD ACN CSCO ABT WFC DIS IBM GE QCOM INTU CAT TXN VZ AMGN DHR PFE NOW CMCSA PM NEE SPGI UNP ISRG RTX T LOW HON GS AMAT BKNG PGR BLK COP UBER SYK MS ELV C SCHW LMT MDT BMY GILD DE MO ADP CB SBUX MMC PLD UPS BA NKE CI INTC SO DUK MDLZ CL AMT TGT USB F GM CVS`.split(" ");
+
+// Sector ETFs have existed the whole period, so they carry no survivorship bias.
+export const SECTORS = ["XLK", "XLF", "XLV", "XLE", "XLI", "XLY", "XLP", "XLU", "XLB", "XLRE", "XLC"];
