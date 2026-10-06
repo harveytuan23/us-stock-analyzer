@@ -23,6 +23,7 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: node scripts/backtest.ts ${{ github.event.inputs.symbols }}
+      - run: node scripts/strategies.ts
       - uses: actions/upload-artifact@v4
         with:
           name: backtest-report
