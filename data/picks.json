@@ -1,226 +1,221 @@
 {
- "generatedAt": "2026-10-06T04:21:15.646Z",
- "signalDate": "2026-06-30",
- "priceDate": "2026-07-30",
- "universe": 98,
+ "generatedAt": "2026-10-06T04:22:24.702Z",
+ "signalDate": "2026-09-30",
+ "priceDate": "2026-10-05",
+ "universe": 97,
  "holdings": [
   {
    "rank": 1,
-   "symbol": "MDT",
-   "name": "MDT",
-   "momentum": 1.067585862805914,
-   "signalPrice": 160.07484235447134,
-   "price": 143.8645519582195,
+   "symbol": "AMD",
+   "name": "Advanced Micro Devices, Inc.",
+   "momentum": 1.917203764502871,
+   "signalPrice": 611.760009765625,
+   "price": 631.75,
    "status": "續抱"
   },
   {
    "rank": 2,
-   "symbol": "UBER",
-   "name": "UBER",
-   "momentum": 1.0068309696166602,
-   "signalPrice": 176.39488549715875,
-   "price": 185.99858701446485,
+   "symbol": "INTC",
+   "name": "Intel Corporation",
+   "momentum": 1.5959977762350332,
+   "signalPrice": 120.2300033569336,
+   "price": 116.19000244140625,
    "status": "續抱"
   },
   {
    "rank": 3,
-   "symbol": "UNH",
-   "name": "UNH",
-   "momentum": 0.8082419399941052,
-   "signalPrice": 196.3863822785726,
-   "price": 211.17895444341653,
+   "symbol": "AMAT",
+   "name": "Applied Materials, Inc.",
+   "momentum": 1.248965074206895,
+   "signalPrice": 511.3800048828125,
+   "price": 542.280029296875,
    "status": "續抱"
   },
   {
    "rank": 4,
-   "symbol": "BLK",
-   "name": "BLK",
-   "momentum": 0.7808148707994087,
-   "signalPrice": 346.9442039190055,
-   "price": 371.16236919782517,
+   "symbol": "MRK",
+   "name": "Merck & Company, Inc.",
+   "momentum": 0.9242333567996572,
+   "signalPrice": 145.30999755859375,
+   "price": 139.5399932861328,
    "status": "續抱"
   },
   {
    "rank": 5,
-   "symbol": "LIN",
-   "name": "LIN",
-   "momentum": 0.7136000624302761,
-   "signalPrice": 295.87512705944,
-   "price": 268.1637999051714,
+   "symbol": "TGT",
+   "name": "Target Corporation",
+   "momentum": 0.8844377432249124,
+   "signalPrice": 156.69000244140625,
+   "price": 152.99000549316406,
    "status": "續抱"
   },
   {
    "rank": 6,
-   "symbol": "SCHW",
-   "name": "SCHW",
-   "momentum": 0.7115512300129558,
-   "signalPrice": 207.42968653509521,
-   "price": 202.19817849242085,
-   "status": "新買進"
-  },
-  {
-   "rank": 7,
-   "symbol": "BA",
-   "name": "BA",
-   "momentum": 0.7086472769733136,
-   "signalPrice": 168.86532821484496,
-   "price": 170.64883817174257,
-   "status": "新買進"
-  },
-  {
-   "rank": 8,
-   "symbol": "MS",
-   "name": "MS",
-   "momentum": 0.7010290665287002,
-   "signalPrice": 239.54379997002,
-   "price": 209.52092002954763,
+   "symbol": "CAT",
+   "name": "Caterpillar, Inc.",
+   "momentum": 0.7061735199922643,
+   "signalPrice": 810.7899780273438,
+   "price": 848.1400146484375,
    "status": "續抱"
   },
   {
+   "rank": 7,
+   "symbol": "CSCO",
+   "name": "Cisco Systems, Inc.",
+   "momentum": 0.66535535103013,
+   "signalPrice": 107.21436309814453,
+   "price": 112.81999969482422,
+   "status": "續抱"
+  },
+  {
+   "rank": 8,
+   "symbol": "AMGN",
+   "name": "Amgen Inc.",
+   "momentum": 0.6126035387665489,
+   "signalPrice": 421.510009765625,
+   "price": 402.9800109863281,
+   "status": "新買進"
+  },
+  {
    "rank": 9,
-   "symbol": "JPM",
-   "name": "JPM",
-   "momentum": 0.692170598896866,
-   "signalPrice": 222.6364872897489,
-   "price": 214.04420185605463,
+   "symbol": "LLY",
+   "name": "Eli Lilly and Company",
+   "momentum": 0.6022151171839565,
+   "signalPrice": 1157.0799560546875,
+   "price": 1143.1199951171875,
    "status": "續抱"
   },
   {
    "rank": 10,
-   "symbol": "JNJ",
-   "name": "JNJ",
-   "momentum": 0.6906141507909569,
-   "signalPrice": 192.6495388168064,
-   "price": 189.09225830635373,
+   "symbol": "BMY",
+   "name": "Bristol-Myers Squibb Company",
+   "momentum": 0.5858842210214505,
+   "signalPrice": 61.7603645324707,
+   "price": 58.810001373291016,
    "status": "新買進"
   }
  ],
  "sells": [
   {
-   "symbol": "GILD",
-   "name": "GILD",
-   "rank": 23
+   "symbol": "GOOGL",
+   "name": "Alphabet Inc.",
+   "rank": 17
   },
   {
-   "symbol": "AMT",
-   "name": "AMT",
-   "rank": 26
-  },
-  {
-   "symbol": "QCOM",
-   "name": "QCOM",
-   "rank": 18
+   "symbol": "GM",
+   "name": "General Motors Company",
+   "rank": 16
   }
  ],
  "watch": [
   {
    "rank": 1,
-   "symbol": "NKE",
-   "name": "NKE",
-   "momentum": 1.233708793936866,
-   "inList": false
+   "symbol": "AMD",
+   "name": "Advanced Micro Devices, Inc.",
+   "momentum": 1.6875626886503032,
+   "inList": true
   },
   {
    "rank": 2,
-   "symbol": "JPM",
-   "name": "JPM",
-   "momentum": 1.163811434832477,
+   "symbol": "INTC",
+   "name": "Intel Corporation",
+   "momentum": 1.4576407518492331,
    "inList": true
   },
   {
    "rank": 3,
-   "symbol": "MDT",
-   "name": "MDT",
-   "momentum": 1.0086078888099816,
+   "symbol": "AMAT",
+   "name": "Applied Materials, Inc.",
+   "momentum": 0.9603784995573541,
    "inList": true
   },
   {
    "rank": 4,
-   "symbol": "MS",
-   "name": "MS",
-   "momentum": 0.9273166521377345,
+   "symbol": "TGT",
+   "name": "Target Corporation",
+   "momentum": 0.9065058968151141,
    "inList": true
   },
   {
    "rank": 5,
-   "symbol": "CSCO",
-   "name": "CSCO",
-   "momentum": 0.7651357044798135,
-   "inList": false
+   "symbol": "MRK",
+   "name": "Merck & Company, Inc.",
+   "momentum": 0.7416277161365086,
+   "inList": true
   },
   {
    "rank": 6,
-   "symbol": "UNH",
-   "name": "UNH",
-   "momentum": 0.7420359104303753,
+   "symbol": "CAT",
+   "name": "Caterpillar, Inc.",
+   "momentum": 0.6457233487507115,
    "inList": true
   },
   {
    "rank": 7,
-   "symbol": "GM",
-   "name": "GM",
-   "momentum": 0.7275120235688892,
-   "inList": false
+   "symbol": "CSCO",
+   "name": "Cisco Systems, Inc.",
+   "momentum": 0.6228801542867044,
+   "inList": true
   },
   {
    "rank": 8,
-   "symbol": "UBER",
-   "name": "UBER",
-   "momentum": 0.6860913091815672,
+   "symbol": "BMY",
+   "name": "Bristol-Myers Squibb Company",
+   "momentum": 0.5604245215273602,
    "inList": true
   },
   {
    "rank": 9,
-   "symbol": "SCHW",
-   "name": "SCHW",
-   "momentum": 0.6670335802451246,
+   "symbol": "AMGN",
+   "name": "Amgen Inc.",
+   "momentum": 0.534767900076839,
    "inList": true
   },
   {
    "rank": 10,
-   "symbol": "SO",
-   "name": "SO",
-   "momentum": 0.6538117080879535,
+   "symbol": "JNJ",
+   "name": "Johnson & Johnson",
+   "momentum": 0.5308346708877794,
    "inList": false
   },
   {
    "rank": 11,
-   "symbol": "SBUX",
-   "name": "SBUX",
-   "momentum": 0.6264874445002855,
+   "symbol": "DE",
+   "name": "Deere & Company",
+   "momentum": 0.5171743874711414,
    "inList": false
   },
   {
    "rank": 12,
-   "symbol": "LMT",
-   "name": "LMT",
-   "momentum": 0.6131902097758204,
+   "symbol": "XOM",
+   "name": "ExxonMobil Holdings Corporation",
+   "momentum": 0.49978686018994867,
    "inList": false
   },
   {
    "rank": 13,
-   "symbol": "NOW",
-   "name": "NOW",
-   "momentum": 0.5648392162709011,
+   "symbol": "COP",
+   "name": "ConocoPhillips",
+   "momentum": 0.49923727993629896,
    "inList": false
   },
   {
    "rank": 14,
-   "symbol": "BA",
-   "name": "BA",
-   "momentum": 0.554606950912981,
-   "inList": true
+   "symbol": "GM",
+   "name": "General Motors Company",
+   "momentum": 0.4789577441089008,
+   "inList": false
   },
   {
    "rank": 15,
-   "symbol": "HON",
-   "name": "HON",
-   "momentum": 0.5476685742598066,
+   "symbol": "C",
+   "name": "Citigroup, Inc.",
+   "momentum": 0.4491713537620634,
    "inList": false
   }
  ],
  "market": {
-  "spy": 111.35093535898423,
-  "spySignal": 104.89355340827666
+  "spy": 774.8300170898438,
+  "spySignal": 762.6300048828125
  }
 }
