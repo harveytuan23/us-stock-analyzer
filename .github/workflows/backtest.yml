@@ -1,0 +1,29 @@
+name: Backtest
+
+on:
+  workflow_dispatch:
+    inputs:
+      symbols:
+        description: "Space-separated tickers (empty = default list)"
+        required: false
+        default: ""
+  schedule:
+    - cron: "0 6 * * 6" # every Saturday 06:00 UTC
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: node scripts/backtest.ts ${{ github.event.inputs.symbols }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: backtest-report
+          path: reports/
